@@ -1,30 +1,24 @@
-# Campus Task Board API Documentation
+Campus TaskBoard API
 
-## Base URL
-http://localhost:8080/api
+Description: A Restful API with Spring Boot that allows users to manage tasks. The API supports creating, reading, updating and deleting tasks with input validation.
 
-## Endpoints
+How to run the application?
 
-### Get All Tasks
-GET /api/tasks
+To run this application you will need Java 17 or higher installed on your computer.
 
-### Get Task by ID
-GET /api/tasks/{id}
+Once you have Java installed, clone this repository to your computer and open the project folder in VS Code or any IDE of your choice.
 
-### Create Task
-POST /api/tasks
-Body: { "title": "...", "description": "...", "completed": false, "priority": "HIGH" }
+To start the application, open the terminal inside the project folder and run the following command:
 
-### Update Task
-PUT /api/tasks/{id}
+On Mac or Linux: cd campus-taskboard./mvnw spring-boot:run
 
-### Delete Task
-DELETE /api/tasks/{id}
+On Windows: mvnw.cmd spring-boot:run
 
-## Error Responses
+Wait for the application to start. When you see the message "Started CampusTaskboardApplication" in the terminal, the server is running successfully.
 
-### 400 Bad Request
-{ "timestamp": "...", "status": 400, "error": "Bad Request", "message": "..." }
+You can now open your browser and go to http://localhost:8080 to see the API working. You should see an empty array [] if no tasks have been created yet.
 
-### 404 Not Found
-{ "timestamp": "...", "status": 404, "error": "Not Found", "message": "..." }
+To test all the endpoints you can use Postman or any API testing tool of your choice.
+
+API endpoints documentation
+
