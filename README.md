@@ -33,3 +33,7 @@ Tests passing (show test results in IDE or console)
 
 Health endpoint working (/actuator/health)
 <img width="163" height="71" alt="Screenshot 2026-05-06 at 4 46 34 PM" src="https://github.com/user-attachments/assets/60761f15-b701-40c4-b0fb-84b2aaa4758c" />
+
+Video:
+https://youtu.be/jFc0BnqNAPk
+
